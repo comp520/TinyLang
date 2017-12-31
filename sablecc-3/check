@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ -f result ] ; then
+	rm result
+fi
+
+for exp in `cat ../testcases`; do
+	echo $exp | java tiny.Main >> result
+done

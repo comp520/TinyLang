@@ -1,0 +1,42 @@
+Enter a "TinyLang" expression followed by Ctrl-d:
+
+Evaluation: 1 + 2  = 3
+Enter a "TinyLang" expression followed by Ctrl-d:
+
+Evaluation: 1 - 2  = -1
+Enter a "TinyLang" expression followed by Ctrl-d:
+
+Evaluation: 2 * 3  = 6
+Enter a "TinyLang" expression followed by Ctrl-d:
+
+Evaluation: 6 / 3  = 2
+Enter a "TinyLang" expression followed by Ctrl-d:
+
+Evaluation: 1 + 2 - 3  = 0
+Enter a "TinyLang" expression followed by Ctrl-d:
+
+Evaluation: 1 + 2 * 3  = 7
+Enter a "TinyLang" expression followed by Ctrl-d:
+
+Evaluation: 1 - 2 + 3  = 2
+Enter a "TinyLang" expression followed by Ctrl-d:
+
+Evaluation: 2 / 2 - 3  = -2
+Enter a "TinyLang" expression followed by Ctrl-d:
+
+Evaluation: 3 * ( 2 + 2 )  = 12
+Enter a "TinyLang" expression followed by Ctrl-d:
+
+Evaluation: 1 + 2 - ( 3 - 4 )  = 4
+Enter a "TinyLang" expression followed by Ctrl-d:
+
+Evaluation: 2 * 3 + ( 2 / 2 )  = 7
+Enter a "TinyLang" expression followed by Ctrl-d:
+
+Evaluation: 2 - ( 2 + 4 ) / 2  = -1
+Enter a "TinyLang" expression followed by Ctrl-d:
+
+Evaluation: 2 * ( 2 + 4 ) - 1  = 11
+Enter a "TinyLang" expression followed by Ctrl-d:
+
+Evaluation: 2 * ( 2 + 4 ) / 2  = 6
