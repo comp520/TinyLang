@@ -4,7 +4,6 @@
 
 #include "tree.h"
 
-extern char *yytext;
 extern int yylineno;
 extern EXP *root;
 
