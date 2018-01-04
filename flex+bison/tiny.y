@@ -8,7 +8,7 @@ extern int yylineno;
 extern EXP *root;
 
 int yylex();
-void yyerror(const char *s) { fprintf(stderr, "ERROR: (line %d) %s\n", yylineno, s); exit(1); }
+void yyerror(const char *s) { fprintf(stderr, "Error: (line %d) %s\n", yylineno, s); exit(1); }
 %}
 
 %locations

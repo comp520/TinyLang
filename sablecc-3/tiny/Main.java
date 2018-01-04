@@ -20,7 +20,7 @@ class Main
 		} 
 		catch (Exception e)
 		{
-			System.out.println("ERROR: " + e.getLocalizedMessage());
+			System.out.println("Error: " + e.getLocalizedMessage());
 			System.exit(1);
 		}
 	}

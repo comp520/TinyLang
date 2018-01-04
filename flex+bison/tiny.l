@@ -31,6 +31,6 @@
 	return tIDENTIFIER;
 }
 
-.       { fprintf(stderr, "ERROR: (line %d) unexpected character '%s'\n", yylineno, yytext); exit(1); }
+.       { fprintf(stderr, "Error: (line %d) unexpected character '%s'\n", yylineno, yytext); exit(1); }
 
 %%

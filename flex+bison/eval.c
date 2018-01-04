@@ -6,7 +6,7 @@ int evalEXP(EXP *e)
 {
 	switch (e->kind) {
 		case k_expressionKindIdentifier:
-			fprintf(stderr, "ERROR: (line %d) Cannot evaluate the value of an identifier\n", e->lineno);
+			fprintf(stderr, "Error: (line %d) Cannot evaluate the value of an identifier\n", e->lineno);
 			exit(1);
 		case k_expressionKindIntLiteral:
 			return e->val.intLiteral;
@@ -19,7 +19,7 @@ int evalEXP(EXP *e)
 		case k_expressionKindDivision:
 			return evalEXP(e->val.binary.lhs) / evalEXP(e->val.binary.rhs);
 		default: 
-			fprintf(stderr, "ERROR: (line %d) Unknown kind for an expression node\n", e->lineno);
+			fprintf(stderr, "Error: (line %d) Unknown kind for an expression node\n", e->lineno);
 			exit(1);
 	}
 }
