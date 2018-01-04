@@ -1,0 +1,6 @@
+*.o
+tiny
+result
+lex.yy.c
+parser.tab.c
+parser.tab.h
